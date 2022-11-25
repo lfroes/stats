@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+      "node-sass": "^5.0.0",
+      "react": "^17.0.1",
+      "sass": "^1.32.5",
+      "vtex": "^2.127.2"
+    },
+    "scripts": {
+      "watch": "sass --watch styles/sass:styles/css",
+      "compress": "{{ run command to compress files }}",
+      "postcompress": "{{ executes AFTER `compress` script }}"
+    }
+  }
+  
